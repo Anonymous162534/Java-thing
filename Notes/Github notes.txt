@@ -1,0 +1,35 @@
+cd = change directory
+
+vimtutor
+
+**Cloning**
+
+1. clone the repository by copying the https url
+2. open git bash
+3. cd Desktop/(tab to autofill)
+4. git clone (insert hyperlink) 
+
+**Looking inside**
+
+1. cd folder name(Java-thing), selecting the cloned folder
+2. ls, list the contents of the folder
+
+**Make changes**
+
+1. vim(new file name) 
+2. i to insert and then type stuff
+3. escape
+4. :wq to exit the editor
+
+**Track our changes**
+
+1. tracking all: git add .
+2. tracking specific file: git add (file name)
+
+**commit /log changes with description**
+
+1. git commit -m "message"
+
+**push files to github.com**
+
+1. git push

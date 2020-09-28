@@ -1,0 +1,108 @@
+**Division operator rules:**
+
+Integer division: 8 / 5 = 1
+
+Double division: 8.0/ 5.0 = 1.6
+
+Mixed division: 8.0 / 5 = 1.6
+
+**Datatypes:**
+
+Int- integer
+
+Char-one character
+
+Long- large number
+
+Boolean- true or false
+
+String- sequence of characters
+
+Double- decimals
+
+**2.2**
+
+1. algorithm - lists the step to follow to solve a problem
+2. pseudo code - natural languages
+
+ex. 1-2: algorithm written in pseudo code
+
+- read the circle's radius
+- compute the area using the following formula area = radius x radius x pi
+- display the result
+
+- class name is put after public class and can be whatever you want it to be
+- /*(comment)*/: for multi-line comment
+- //(comment): for single line comment
+
+3. variable - declaring a symbol; represents a value stored in the computer's memory; x, y, radius, etc.
+
+4. declaring a variable - specifying data types in a variable, such as, integers, booleans, etc.
+
+5. fundamental types - data types that Java provides; integers, real numbers, characters, strings, Boolean types, etc.
+
+6. floating point - method to represent real numbers(w/ decimal points) 
+
+- use double to declare a floating-point variable, ex. double radius, double area
+
+**if boolean**
+
+boolean - true false, 1==1
+
+else(block) - another if statement if the first is false
+
+if(block) - true then print, otherwise it moves to else
+
+switch(block) - 
+
+switch example - public class Testing {
+
+public static void main(String[] args) {
+
+boolean isTrue = true;
+
+if(1 == 1) {
+
+System.our.println("Hello World");
+
+}
+
+else if (1==1) {
+
+System.out.println("ur gay");
+
+}
+
+else {
+
+System.out.println("ur bad");
+
+}
+
+int dayCoutn = 0;
+
+switch (dayCount) {
+
+case 0:
+
+System.out.println("Monday");
+
+break;
+
+case 1:
+
+System.out.println("Tuesday");
+
+break;
+
+case 2:
+
+System.out.println("Wednesday");
+
+break;
+
+}
+
+}
+
+}
